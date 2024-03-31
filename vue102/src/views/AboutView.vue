@@ -1,13 +1,13 @@
 <script setup> 
-  import detail from "../components/Detail.vue"
+  import Navbar from '../components/Navbar.vue'
 </script>
 
 <template>
-  <div class="about">
+  <div class="about w-full h-auto mx-auto ">
+    <Navbar></Navbar>
     <h1>This is an about page</h1>
     <a href="/contact">Click</a>
   </div>
-  <detail msg="eiei"/>
 </template>
 
 <style>
